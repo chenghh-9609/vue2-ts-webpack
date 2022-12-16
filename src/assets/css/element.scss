@@ -1,0 +1,16 @@
+/**
+* 覆盖主题色
+*/
+/*主题颜色变量*/
+// $--color-primary: #f8c301;
+
+/*icon字体路径变量*/
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+/*按需引入用到的组件的css文件和基础css文件*/
+@import "~element-ui/packages/theme-chalk/lib/base.css";
+@import "~element-ui/packages/theme-chalk/lib/dialog.css";
+@import "~element-ui/packages/theme-chalk/lib/button.css";
+@import "~element-ui/packages/theme-chalk/lib/table.css";
+@import "~element-ui/packages/theme-chalk/lib/table-column.css";
+// @import 'element-ui/lib/theme-chalk/index.css';
